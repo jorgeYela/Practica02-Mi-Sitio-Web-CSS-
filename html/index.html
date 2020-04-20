@@ -10,28 +10,67 @@
     -->
     <meta charset="UTF-8">
     <meta name="keywords" content="Netflix, streaming, peliculas, series, documentales">
+    <link rel="stylesheet" href="/css/estilosHome.css" type="text/css" />
+    <link rel="stylesheet" href="/css/diseños.css" type="text/css" />
     <title>Document</title>
 </head>
 <body>
     <header>
-        <img src="/Imagenes/netflixPrincipal.png" alt="Todo Sobre Netflix">
+        <div id="contenedor">
+            <div id="logoPrincipal">
+                <img src="/Imagenes/netflixPrincipal.png" alt="Todo Sobre Netflix" width="400" height="150">
+            </div>
+            <div id="barraBusqueda">
+                <input type="text" id="txtBusqueda" name="txtBusqueda" placeholder="Buscar dentro de la Pagina">
+            </div>
+            <div id="user">
+                <img src="/Imagenes/user.png" alt="usuario" width="50" height="50" />
+                <p class="img-footer" id="piePaginaUser">Usuario</p>
+            </div>
+            <div id="mensajeria">
+                <img src="/Imagenes/mensajeria.png" alt="mensajeria" width="50" height="50" />
+                <p class="img-footer" id="mmensajeria">Mensajes</p>
+            </div>
+            <div id="more">
+                <img src="/Imagenes/masInfo.jpg" alt="mensajeria" width="50" height="50" />
+                <p class="img-footer" id="mmore">Mas</p>
+            </div>
+        </div>
+        
     </header>
     <nav>
-        <a href="/html/informacion.html"><img src="/Imagenes/Informacion.jpg" alt="Imformación General" /></a>
-        <a href="/html/proximamente.html"><img src="/Imagenes/proximamente.jpg" alt="Proximamente" /></a>
-        <a href="/html/top10.html"><img src="/Imagenes/top10.jpg" alt="Top 10" /></a>
-        <a href="/html/polemicas.html"><img src="/Imagenes/polemicas.jpg" alt="Polemicas" /></a>
-        <a href="/html/TopPeliculas.html"><img src="/Imagenes/peliculas1.jpg" alt="Peliculas" /></a>
-        <a href="/html/TopSeries.html"><img src="/Imagenes/series.jpg" alt="Series" /></a>
-        <a href="/html/TopDocumentales.html"><img src="/Imagenes/documentales.jpg" alt="Documentales" /></a>
-        <a href="/html/estadisticas.html"><img src="/Imagenes/estadisticas.jpg" alt="Estadisticas" /></a>
+        <a href="/html/informacion.html" id="menuInfo"><img src="/Imagenes/Informacion.jpg" alt="Imformación General" id="imgInformacion"/></a>
+        <a href="/html/proximamente.html" id="menuProx"><img src="/Imagenes/proximamente.jpg" alt="Proximamente" id="imgProximamente"/></a>
+        <a href="/html/top10.html" id="menuTop"><img src="/Imagenes/top10.jpg" alt="Top 10" id="imgTop10"/></a>
+        <a href="/html/polemicas.html" id="menuPole"><img src="/Imagenes/polemicas.jpg" alt="Polemicas" id="imgPolemicas"/></a>
+        <a href="/html/TopPeliculas.html" id="menuTopP"><img src="/Imagenes/peliculas1.jpg" alt="Peliculas" id="imgTopPeliculas"/></a>
+        <a href="/html/TopSeries.html" id="menuTopS"><img src="/Imagenes/series.jpg" alt="Series" id="imgTopSeries"/></a>
+        <a href="/html/TopDocumentales.html" id="menuTopD"><img src="/Imagenes/documentales.jpg" alt="Documentales" id="imgTopDocumentales"/></a>
+        <a href="/html/estadisticas.html" id="menuEst"><img src="/Imagenes/estadisticas.jpg" alt="Estadisticas" id="imgEstadisticas"/></a>
     </nav>
 
-    <aside>
-        <p>Puedes visitar la web oficial de netflix: <a href="http://www.netflix.com" target="_blank">Clic aquí</a></p>
-    </aside>
+    <div id="contenedor2">
+        <div id="Parrafo1">
+            <h1>La Informacion Mas Relevante Entorno al Gigante Del Streaming <em>Netflix</em></h1>
+            <p id="inciso">
+                <br>En esta pagina puedes encontrar toda la informacion acerca de netflix, en nuestros distintos
+                apartados puedes encontrar tambien, varios datos importantes de esta plataforma. 
+            </p>
+            <aside id="aside1">
+                <p>
+                    <br>Puedes visitar la web oficial de netflix: <a href="http://www.netflix.com" target="_blank">Clic aquí</a>
+                </p>
+            </aside>
+        </div>
+        <div id="boton1">
+            <br><input id="button1" type='button' name='boton1' value='Resgistrarse' style='width:200px; height:50px'>
+        </div>
+        <div id="boton2">
+            <br><input id="button2" type='button' name='boton2' value='Iniciar Sesion' style='width:200px; height:50px'>
+        </div>
+    </div>
 
-    <footer>
+    <footer id="piepagina">
         <p>Call: <a href="tel:+59395205364">0985205364</a></p>
         <p>Email: <a href="mailto:yelajorge6@gmail.com">yelajorge6@gmail.com</a></p>
         Universidad Politécnica Salesiana © Jorge Yela Vélez, Todos los Derechos Reservados 

@@ -1,0 +1,122 @@
+#contenedor{
+    background: rgb(63, 51, 51);
+    /*padding: 0.1px;*/
+    overflow: hidden;
+}
+
+#logoPrincipal{
+    float: left;
+    color: red;
+}
+
+#txtBusqueda{
+    float: left;
+    padding: 10px;
+    width: 30%;
+    margin: 50px;
+}
+
+#user{
+    float: left;
+    padding: 20px;
+    width: 150px;
+}
+
+#mensajeria{
+    float: left;
+    padding: 20px;
+    width: 150px;
+}
+
+#more{
+    float: left;
+    padding: 20px;
+    width: 150px;
+}
+
+#imgInformacion{
+    border: 1px solid rgb(63, 51, 51);
+    padding: 5px;
+    margin: 15px;
+}
+
+#imgProximamente{
+    border: 1px solid rgb(63, 51, 51);
+    padding: 5px;
+    margin: 15px;
+}
+
+#imgTop10{
+    border: 1px solid rgb(63, 51, 51);
+    padding: 5px;
+    margin: 15px;
+}
+
+#imgPolemicas{
+    border: 1px solid rgb(63, 51, 51);
+    padding: 5px;
+    margin: 15px;
+}
+
+#imgTopPeliculas{
+    border: 1px solid rgb(63, 51, 51);
+    padding: 5px;
+    margin: 15px;
+}
+
+#imgTopSeries{
+    border: 1px solid rgb(63, 51, 51);
+    padding: 5px;
+    margin: 15px;
+}
+
+#imgTopDocumentales{
+    border: 1px solid rgb(63, 51, 51);
+    padding: 5px;
+    margin: 15px;
+}
+
+#imgEstadisticas{
+    border: 1px solid rgb(63, 51, 51);
+    padding: 5px;
+    margin: 15px;
+}
+
+#contenedor2{
+    float: left;
+    background: rgb(233, 41, 41);
+    margin: 15px;
+    padding: 100px;
+    width: 700px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+#inciso{
+    text-align: justify;
+    font-size: x-large;
+}
+
+#aside1{
+    text-align: justify;
+    font-size: x-large;
+}
+
+#boton1{
+    float: left;
+    padding-left: 100px;
+}
+
+#boton2{
+    float: left;
+    padding-left: 100px;
+}
+
+#piepagina{
+    border: 1px solid red;
+    clear: both;
+}

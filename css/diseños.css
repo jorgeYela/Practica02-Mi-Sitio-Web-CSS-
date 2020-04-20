@@ -1,0 +1,67 @@
+#piePaginaUser{
+    color: white;
+}
+
+#mmensajeria{
+    color: white;
+}
+
+#mmore{
+    color: white;
+}
+
+#imgInformacion{
+    width: 100px;
+    height: 120px;
+    padding: 25px;
+}
+
+#imgProximamente{
+    width: 100px;
+    height: 120px;
+    padding: 25px;
+}
+
+#imgTop10{
+    width: 100px;
+    height: 120px;
+    padding: 25px;
+}
+
+#imgPolemicas{
+    width: 100px;
+    height: 121px;
+    padding: 25px;
+}
+
+#imgTopPeliculas{
+    width: 100px;
+    height: 120px;
+    padding: 25px;
+}
+
+#imgTopSeries{
+    width: 100px;
+    height: 120px;
+    padding: 25px;
+}
+
+#imgTopDocumentales{
+    width: 100px;
+    height: 120px;
+    padding: 25px;
+}
+
+#imgEstadisticas{
+    width: 100px;
+    height: 120px;
+    padding: 25px;
+}
+
+#button1{
+    background-color: white;
+}
+
+#button2{
+    background-color: white;
+}
