@@ -10,6 +10,12 @@ h2{
     color: black;
 }
 
+h3{
+    text-align: justify;
+    text-transform: uppercase;
+    color: black;
+}
+
 h2.destacado{
     text-align: center;
     text-transform: uppercase;
@@ -42,6 +48,14 @@ p.destacado, dt, dd, li{
 
 #mmore{
     color: white;
+}
+
+#contenedorImgCP{
+    margin-left: 250px;
+}
+
+#videoNET{
+    margin-left: 280px;
 }
 
 #imgPapas{
@@ -111,7 +125,6 @@ p.destacado, dt, dd, li{
 }
 
 #tabla-contenedor{
-    /*margin: 150px auto;*/
     width: 600px;
 }
 
