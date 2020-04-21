@@ -3,61 +3,49 @@ h1{
     text-transform: uppercase;
     color: black;
 }
-
 h2{
-    text-align: justify;
+    text-align: center;
     text-transform: uppercase;
     color: black;
 }
-
 h3{
     text-align: justify;
     text-transform: uppercase;
     color: black;
 }
-
 h2.destacado{
     text-align: center;
     text-transform: uppercase;
     color: black;
 }
-
 h2.adjunto{
     text-align: center;
     text-transform: uppercase;
     color: black;
 }
-
 p.adjunto{
     text-align: justify;
     color: black;
 }
-
 p.destacado, dt, dd, li{
     text-align: justify;
     color: white;
 }
-
 #piePaginaUser{
     color: white;
 }
-
 #mmensajeria{
     color: white;
 }
-
 #mmore{
     color: white;
 }
-
 #contenedorImgCP{
     margin-left: 250px;
 }
-
 #videoNET{
     margin-left: 280px;
 }
-
 #imgPapas{
     width: 500px;
     height: 250px;
@@ -134,7 +122,32 @@ table{
     border-collapse: collapse;
     width: 100%;
 }
-
 th, td{
     border: solid 1px black;
+}
+/*MOVIMIENTO IMAGENES ARCHIVO: TOP10.HTML*/
+#imagenLCDPD, #imagenPM, #imagenGMZ, #imagenEFDP{
+    margin-left: -1px;
+}
+#imagenFT, #imagenLCDP, #imagenMC7, #imagenV2, #imagenLP{
+    margin-left: 450px;
+}
+/*MOVIMIENTO DE PARRAFOS*/
+#parrafoLCDP, #parrafoFT, #parrafoLP{
+    margin-top: -330px;
+    margin-bottom: 200px;
+    padding-right: 700px;
+    padding-left: 1px;
+}
+#parrafoLCDPD, #parrafoPM, #parrafoCK, #parrafoGMZ, #parrafoEFDP{
+    margin-top: -250px;
+    margin-bottom: 250px;
+    padding-right: 10px;
+    padding-left: 650px;
+}
+#parrafoMC7, #parrafoV2{
+    margin-top: -230px;
+    margin-bottom: 250px;
+    padding-right: 700px;
+    padding-left: 1px;
 }
