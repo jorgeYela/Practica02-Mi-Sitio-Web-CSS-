@@ -1,3 +1,20 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+h2{
+    text-align: justify;
+    text-transform: uppercase;
+    color: black;
+}
+
+p{
+    text-align: justify;
+    color: white;
+}
+
 #piePaginaUser{
     color: white;
 }
@@ -8,6 +25,12 @@
 
 #mmore{
     color: white;
+}
+
+#imgPapas{
+    width: 500px;
+    height: 250px;
+    padding-left: 65px;
 }
 
 #imgInformacion{
