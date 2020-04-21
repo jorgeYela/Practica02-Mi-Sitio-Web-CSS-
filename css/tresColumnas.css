@@ -1,9 +1,10 @@
 #MENU{
     border: 1px solid rgb(63, 51, 51);
-    width: 15%;
-    padding-top: 50px;
-    padding-bottom: 60px;
+    width: 13%;
+    border-width: 3px;
     float: left;
+    height: 420px;
+    overflow: hidden;
 }
 
 #menuIndex{
@@ -91,22 +92,20 @@
 #texto{
     background-color: rgb(233, 41, 41);;
     width: 40%;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-left: 10px;
+    padding: 5px 20px;
+    border-width: 3px;
     float: left;
 }
 
 #Audio-Visual{
     border: 1px solid rgb(63, 51, 51);
-    width: 35%;
-    margin-right: 100px;
-    margin-left: 2px;
-    padding-top: 50px;
-    padding-bottom: 60px;
+    width: 40%;
+    margin-left: 10px;
+    border-width: 3px;
+    padding-left: 6.3px;
+    padding-right: 6px;
+    height: 800px;
     float: left;
 }
 
