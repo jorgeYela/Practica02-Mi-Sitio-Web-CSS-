@@ -2,93 +2,79 @@
     background: rgb(63, 51, 51);
     overflow: hidden;
 }
-
 #logoPrincipal{
     float: left;
     color: red;
 }
-
 #txtBusqueda{
     float: left;
     padding: 10px;
     width: 30%;
     margin: 50px;
 }
-
 #user{
     float: left;
     padding: 20px;
     width: 150px;
 }
-
 #mensajeria{
     float: left;
     padding: 20px;
     width: 150px;
 }
-
 #more{
     float: left;
     padding: 20px;
     width: 150px;
 }
-
 #imgInformacion{
     float: left;
     border: 1px solid rgb(63, 51, 51);
     padding: 10px;
     margin: 10px;
 }
-
 #imgProximamente{
     float: left;
     border: 1px solid rgb(63, 51, 51);
     padding: 10x;
     margin: 10px;
 }
-
 #imgTop10{
     float: left;
     border: 1px solid rgb(63, 51, 51);
     padding: 10px;
     margin: 10px;
 }
-
 #imgPolemicas{
     float: left;
     border: 1px solid rgb(63, 51, 51);
     padding: 10px;
     margin: 10px;
 }
-
 #imgTopPeliculas{
     float: left;
     border: 1px solid rgb(63, 51, 51);
     padding: 10px;
     margin: 10px;
 }
-
 #imgTopSeries{
     float: left;
     border: 1px solid rgb(63, 51, 51);
     padding: 10px;
     margin: 10px;
 }
-
 #imgTopDocumentales{
     float: left;
     border: 1px solid rgb(63, 51, 51);
     padding: 10px;
     margin: 10px;
 }
-
 #imgEstadisticas{
     float: left;
     border: 1px solid rgb(63, 51, 51);
     padding: 10px;
     margin: 10px;
 }
-
 #imgContacto{
     float: left;
     border: 1px solid rgb(63, 51, 51);
@@ -96,7 +82,6 @@
     margin-top: 10px;
     position: absolute;
 }
-
 #contenedor2{
     background: rgb(233, 41, 41);
     width: 45%;
@@ -107,33 +92,27 @@
     float: left;
     overflow: hidden;
 }
-
 h1{
     text-align: center;
     text-transform: uppercase;
     color: white;
 }
-
 #inciso{
     text-align: justify;
     font-size: x-large;
 }
-
 #aside1{
     text-align: justify;
     font-size: x-large;
 }
-
 #boton1{
     float: left;
     padding-left: 100px;
 }
-
 #boton2{
     float: left;
     padding-left: 100px;
 }
-
 #contenedor3{
     background: rgb(0, 0, 0);
     width: 26%;
@@ -145,14 +124,12 @@ h1{
     position: absolute;
     float: left;
 }
-
 #imagenLogo1{
     width: 500px;
     height: 500px;
     margin-top: -60px;
     margin-left: -70px;
 }
-
 #contenedor4{
     border: 1px solid black;
     width: 83.7%;
@@ -167,45 +144,36 @@ h1{
     padding-top: 100px;
     float: left;
 }
-
 #novedades{
     text-align: center;
     text-transform: uppercase;
     margin-top: -80px;
 } 
-
 #estrenoHollywood{
     margin-left: -50px;
 }
-
 #estrenoTheEddy{
     margin-top: -255px;
     margin-left: 480px;
 }
-
 #estrenoMedias{
     margin-top: -255px;
     margin-left: 960px;
 }
-
 #boton3{
     float: left;
     padding-left: 555px;
 }
-
 #descripcionAvatar1{
     text-align: justify;
     font-size: x-large;
 }
-
 #imgAvatarMujer1, #imgAvatarMujer2{
     margin-left: 760px;
 }
-
 #imgAvatarHombre1, #imgAvatarHombre2{
     margin-left: 760px;
 }
-
 #descripcionAvatar10, #descripcionAvatar2, #descripcionAvatar3, #descripcionAvatar4{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -213,7 +181,6 @@ h1{
     color: white;
     margin-left: 100px;
 }
-
 .slider{
     background: rgb(233, 41, 41);
     width: 99.7%;
@@ -222,19 +189,16 @@ h1{
     margin-bottom: 1px;
     overflow: hidden;
 }
-
 .slider ul{
     display: flex;
     padding: 0;
     width: 400%;
     animation: cambio 20s infinite alternate;
 }
-
 .slider li{
     width: 100%;
     list-style: none;
 }
-
 @keyframes cambio {
     0% {margin-left: 0;}
     20% {margin-left: 0;}
@@ -248,13 +212,11 @@ h1{
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
 }
-
 #testimonios{
     margin-left: 50px;
     text-transform: uppercase;
     color: white;
 } 
-
 #contenedor5{
     border: 1px solid black;
     width: 83.7%;
@@ -266,13 +228,11 @@ h1{
     margin-left: 1px;
     float: left;
 }
-
 #equipo{
     text-align: center;
     text-transform: uppercase;
     margin-top: -70px;
 } 
-
 #contactoP{
     width: 17%;
     border-width: 3px;
@@ -281,11 +241,9 @@ h1{
     height: 300px;
     overflow: hidden;
 }
-
 #imgUPS{
     margin-left: 30px;
 }
-
 #mision{
     width: 35%;
     margin-left: 15px;
@@ -293,14 +251,12 @@ h1{
     border-width: 3px;
     float: left;
 }
-
 #hsomos{
     margin-top: -10px;
     text-align: center;
     text-transform: uppercase;
     color: black;
 }
-
 #ayuda{
     width: 35%;
     margin-left: 15px;
@@ -308,30 +264,24 @@ h1{
     border-width: 3px;
     float: left;
 }
-
 #hayuda{
     margin-top: -10px;
     text-align: center;
     text-transform: uppercase;
     color: black;
 }
-
 #navegadorSomos{
     margin-left: 220px;
 }
-
 #navegadorAyuda{
     margin-left: 235px;
 }
-
 #numero{
     margin-left: 30px;
 }
-
 #correo{
     margin-left: 30px;
 }
-
 #universidad{
     margin-left: 30px;
 }
