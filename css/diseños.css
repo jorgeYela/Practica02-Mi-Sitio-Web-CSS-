@@ -1,3 +1,4 @@
+/*Importar Fuentes Descargadas de Google*/
 @font-face{
     font-family: 'MiFuente-Bangers-Regular';
     src: url(/Fuentes/Bangers-Regular.ttf);
@@ -14,13 +15,9 @@
     font-family: 'MiFuente-AbrilFatFace';
     src: url(/Fuentes/AbrilFatface-Regular.ttf);
 }
-h1{
-    font-family: 'MiFuente-AbrilFatFace';
-    text-align: center;
-    text-transform: uppercase;
-    color: black;
-}
-h2{
+
+/*Estilos de letra (Agregando Fuentes).*/
+h1, h2{
     font-family: 'MiFuente-AbrilFatFace';
     text-align: center;
     text-transform: uppercase;
@@ -29,18 +26,6 @@ h2{
 h3{
     font-family: 'MiFuente-DancingScript';
     text-align: justify;
-    text-transform: uppercase;
-    color: black;
-}
-h2.destacado{
-    font-family: 'MiFuente-AbrilFatFace';
-    text-align: center;
-    text-transform: uppercase;
-    color: black;
-}
-h2.adjunto{
-    font-family: 'MiFuente-AbrilFatFace';
-    text-align: center;
     text-transform: uppercase;
     color: black;
 }
@@ -57,6 +42,7 @@ p.destacado, dt, dd, li{
 aside{
     font-family: 'MiFuente-Bangers-Regular';
 }
+/*Posicionamiento de Videos, Imagenes y Cajas*/
 #piePaginaUser{
     color: white;
 }
@@ -77,7 +63,6 @@ aside{
     height: 250px;
     padding-left: 60px;
 }
-
 #imgInformacion{
     width: 100px;
     height: 120px;
@@ -131,7 +116,7 @@ aside{
     height: 120px;
     padding: 25px;
 }
-
+/*Color Botones*/
 #button1{
     background-color: white;
 }
@@ -143,11 +128,10 @@ aside{
 #button3{
     background-color: white;
 }
-
+/*Diseño Tablas*/
 #tabla-contenedor{
     width: 600px;
 }
-
 table{
     background-color: white;
     text-align: left;
