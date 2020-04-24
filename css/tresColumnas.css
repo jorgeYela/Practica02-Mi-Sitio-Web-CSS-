@@ -3,7 +3,7 @@
     width: 13%;
     border-width: 3px;
     float: left;
-    height: 420px;
+    height: 450px;
     overflow: hidden;
 }
 
@@ -88,7 +88,15 @@
     padding-bottom: 10px;
     overflow: hidden;
 }
-
+#menuContacto{
+    border: 1px solid rgb(63, 51, 51);
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
 #texto{
     background-color: rgb(233, 41, 41);;
     width: 40%;

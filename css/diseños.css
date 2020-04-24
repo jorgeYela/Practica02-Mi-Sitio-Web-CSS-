@@ -157,3 +157,22 @@ th, td{
     padding-right: 700px;
     padding-left: 1px;
 }
+/*DISEÑO PAGINA DE CONTACTO*/
+#logoContacto{
+    margin-left: 10px;
+}
+#txtRemitente{
+    padding: 10px;
+    width: 30%;
+    margin: 50px;
+    margin-left: 435px;
+}
+#textArea{
+    margin-left: 435px;
+    margin-top: -30px;
+}
+#boton3{
+    float: left;
+    padding-left: 720px;
+    margin-bottom: 50px;
+}
