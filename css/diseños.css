@@ -1,35 +1,61 @@
+@font-face{
+    font-family: 'MiFuente-Bangers-Regular';
+    src: url(/Fuentes/Bangers-Regular.ttf);
+}
+@font-face{
+    font-family: 'MiFuente-DancingScript';
+    src: url(/Fuentes/DancingScript-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: 'MiFuente-RobotoSlab';
+    src: url(/Fuentes/RobotoSlab-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: 'MiFuente-AbrilFatFace';
+    src: url(/Fuentes/AbrilFatface-Regular.ttf);
+}
 h1{
+    font-family: 'MiFuente-AbrilFatFace';
     text-align: center;
     text-transform: uppercase;
     color: black;
 }
 h2{
+    font-family: 'MiFuente-AbrilFatFace';
     text-align: center;
     text-transform: uppercase;
     color: black;
 }
 h3{
+    font-family: 'MiFuente-DancingScript';
     text-align: justify;
     text-transform: uppercase;
     color: black;
 }
 h2.destacado{
+    font-family: 'MiFuente-AbrilFatFace';
     text-align: center;
     text-transform: uppercase;
     color: black;
 }
 h2.adjunto{
+    font-family: 'MiFuente-AbrilFatFace';
     text-align: center;
     text-transform: uppercase;
     color: black;
 }
 p.adjunto{
+    font-family: 'MiFuente-RobotoSlab';
     text-align: justify;
     color: black;
 }
 p.destacado, dt, dd, li{
+    font-family: 'MiFuente-RobotoSlab';
     text-align: justify;
     color: white;
+}
+aside{
+    font-family: 'MiFuente-Bangers-Regular';
 }
 #piePaginaUser{
     color: white;
